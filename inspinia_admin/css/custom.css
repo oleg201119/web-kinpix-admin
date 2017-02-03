@@ -1,0 +1,114 @@
+.logo-super {
+    color: #18a689;
+}
+
+.logo-sub {
+    color: #26d7d9;
+    text-align: right;
+    font-weight: normal;
+}
+
+.logo-element {
+    color: #01b7ff;
+}
+
+.profile-element img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn-action {
+    margin-bottom: 0px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn-action img {
+    width: 20px;
+    height: 20px;
+}
+
+/***********************************************************************************************************************
+*
+* Home
+*
+***********************************************************************************************************************/
+#users_table tbody {
+    width: 2700px;
+}
+
+#users_table th {
+    text-align: center;
+}
+
+#users_table td {
+    vertical-align: middle;
+}
+
+@media (min-width: 1200px) {
+    .search_field {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+
+    .order_field {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+
+    .search_btn {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+}
+
+/***********************************************************************************************************************
+*
+* Flagged Photo
+*
+***********************************************************************************************************************/
+.photo_table_wrapper {
+
+}
+
+#photo_table {
+
+}
+
+#photo_table tbody {
+}
+
+#photo_table th {
+    text-align: center;
+}
+
+/***********************************************************************************************************************
+*
+* SummerEditor
+*
+***********************************************************************************************************************/
+.note-editor {
+    min-height: 500px;
+}
+
+/***********************************************************************************************************************
+*
+* Validator
+*
+***********************************************************************************************************************/
+label.error {
+    color: #8a1f11;
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+input.error {
+    background: #fbe3e4;
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
